@@ -1,39 +1,86 @@
-.h1principal{
 
-    color: rgb(147, 136, 117);
+header{
+    display: flex;
+    background-color: coral;
+    min-height: 100%auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    border-radius: 15px;
+
+
     
 }
 
-.h1texto{
-
-color: rgb(181, 181, 77);
+body{
+    padding: 30px;
+   
 }
 
+.h1principal{
+    min-height: 100%auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    color: coral;
+}
+
+h2{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
 p{
 
     color: red;
 }
 
-#tabla{
-
-    color: black
-    
+table {
+    border: 1px solid black;
 }
 
+table th {
+    background: black;
+    color: white;
+}
+
+table tr td {
+    border: double 1px black;
+}
+
+
+/*Modify the tab button in the body of the page.*/
 .home{
+   background-color: #6a4444;
+   border-radius: 20px;
+   padding: 10px;
+   align-items: center;
+   word-spacing: 80px;
+   text-align: center;
 
-    background-color: orange;
 }
+
+/* Change the color on h1texto*/
+.h1texto, .cat{
+    color: #6a4444;
+    font-family:pacifico;
+    text-align: center;
+
+}
+
+
+
+
 
 .Pp{ 
-
-
-
-color: #dd8f8f; 
+color: #6a4444; 
 font-family: futura;
 background-color: rgb(255, 255, 255);
-
 
 }
 
@@ -41,3 +88,32 @@ background-color: rgb(255, 255, 255);
 .Pp{
 
 color: rgb(80, 117, 80);}
+
+.home{
+
+    scroll-padding: 300px;
+}
+
+footer{
+background-color: green;
+padding: 20px;
+align-items: center;
+border-radius: 10px;
+
+}
+
+a{
+    color: beige;
+    text-decoration: none;
+}
+
+a:hover {
+background-color: orange;
+padding: 3px;
+border-radius: 3px;
+}
+
+.link{
+    color: black;
+}
+
