@@ -117,3 +117,31 @@ border-radius: 3px;
     color: black;
 }
 
+
+
+
+#saludo{
+    font-size: 2em;
+    padding: 20px;
+    text-align: center;
+    
+    }
+    
+    .morning{
+    
+        background-color: blue;
+        color: white;
+        border-radius: 20px;
+    }
+    .afternoon{
+    
+        background-color: green;
+        color: black;
+        border-radius: 20px;
+    }
+    
+    .evening{
+        background-color: navy;
+        color: white;
+        border-radius: 20px;
+    }
